@@ -1,0 +1,47 @@
+nav {
+  width: 100%;
+  display: flex;
+  opacity: 0.85;
+  background: #0E0E0E;
+  justify-content: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+nav .logo-svg {
+  margin-right: 32px;
+}
+nav .url-items {
+  display: flex;
+}
+nav .url-items .nav-item {
+  margin-top: 28px;
+  margin-right: 28px;
+  list-style: none;
+}
+nav .url-items .nav-item a {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+nav .url-items .nav-item a:hover {
+  color: #D42E12;
+}
+nav .search-svg {
+  margin-left: 23px;
+  margin-right: 12px;
+  margin-top: 15px;
+}
+nav .search-svg:hover {
+  cursor: pointer;
+}
+nav .savat-svg {
+  margin-top: 15px;
+}
+nav .savat-svg:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=Nav.css.map */

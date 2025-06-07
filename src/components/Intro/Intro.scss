@@ -1,0 +1,63 @@
+.intro-section {
+    background: url("./../../img/intro\ back.png"), lightgray 50% / cover no-repeat;
+
+    .intro-items {
+        padding-top: 200px;
+        padding-bottom: 189px;
+    }
+
+    .intro-title {
+        color: #FFF;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .redline-button {
+        margin-top: 52px;
+    }
+
+    .info-cards {
+        background: #0E0E0E;
+        display: flex;
+    }
+
+    .cards {
+        display: flex;
+    }
+
+    .card {
+        width: 282px;
+        height: 272px;
+        text-align: center;
+        position: relative;
+        clip-path: polygon(30% 0, 100% 0, 100% 68%, 76% 100%, 0 100%, 0 26%);
+        cursor: pointer;
+
+        &:hover {
+            background-color: #C53720;
+        }
+
+        p {
+            display: flex;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            position: absolute;
+            top: 60%;
+            right: 15%;
+        }
+
+        .card-icon {
+            top: 20%;
+            right: 25%;
+            display: flex;
+            width: 130px;
+            height: 79px;
+            position: absolute;
+        }
+    }
+}

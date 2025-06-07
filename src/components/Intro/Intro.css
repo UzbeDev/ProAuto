@@ -1,0 +1,55 @@
+.intro-section {
+  background: url("./../../img/intro back.png"), lightgray 50%/cover no-repeat;
+}
+.intro-section .intro-items {
+  padding-top: 200px;
+  padding-bottom: 189px;
+}
+.intro-section .intro-title {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.intro-section .redline-button {
+  margin-top: 52px;
+}
+.intro-section .info-cards {
+  background: #0E0E0E;
+  display: flex;
+}
+.intro-section .cards {
+  display: flex;
+}
+.intro-section .card {
+  width: 282px;
+  height: 272px;
+  text-align: center;
+  position: relative;
+  -webkit-clip-path: polygon(30% 0, 100% 0, 100% 68%, 76% 100%, 0 100%, 0 26%);
+          clip-path: polygon(30% 0, 100% 0, 100% 68%, 76% 100%, 0 100%, 0 26%);
+  cursor: pointer;
+}
+.intro-section .card:hover {
+  background-color: #C53720;
+}
+.intro-section .card p {
+  display: flex;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 60%;
+  right: 15%;
+}
+.intro-section .card .card-icon {
+  top: 20%;
+  right: 25%;
+  display: flex;
+  width: 130px;
+  height: 79px;
+  position: absolute;
+}/*# sourceMappingURL=Intro.css.map */

@@ -1,0 +1,70 @@
+.company-info {
+    position: relative;
+    background-color: #00000095;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url("./../../img/company-info-back.png") lightgray 50% / cover no-repeat;
+        z-index: -1;
+    }
+
+    .company-info__main-side {
+        display: flex;
+    }
+
+    .company-info__title {
+        padding-top: 88px;
+        color: #FFF;
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .red-line {
+        width: 280px;
+        margin-top: 8px;
+        margin-bottom: 74px;
+    }
+
+    .company-info__info {
+        width: 744px;
+        height: 255px;
+        flex-shrink: 0;
+        border: 4px solid #C53720;
+        background: rgba(14, 14, 14, 0.60);
+        padding: 32px;
+        margin-left: 24px;
+
+        p {
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        button {
+            width: 216px;
+            height: 52px;
+            margin-top: 28px;
+            padding: auto 20px;
+        }
+    }
+
+    .imgPerson {
+        width: 360px;
+        height: 347px;
+        border: 4px solid #C53720;
+        clip-path: polygon(25% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 25%);
+        margin-bottom: 98px;
+    }
+
+}

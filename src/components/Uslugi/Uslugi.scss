@@ -1,0 +1,110 @@
+.uslugi-section {
+    padding-bottom: 98px;
+
+    position: relative;
+    background: radial-gradient(24.05% 24.05% at 50.00% 56.14%, rgba(14, 14, 14, 0.70) 0%, rgba(14, 14, 14, 0.97) 100%);
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+        background-image: url("./../../img/uslugi-back-img.png");
+    }
+
+    .uslugi-title {
+        padding-top: 88px;
+        color: #FFF;
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .uslugi-desc {
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 74px;
+    }
+
+    .red-line {
+        width: 170px;
+        margin-top: 8px;
+        margin-bottom: 32px;
+    }
+
+    
+
+    .main-side>div {
+        width: 50%;
+        float: left;
+    }
+
+    .uslugi-cards{
+        margin-bottom: 72px;
+    }
+
+    .uslugi-card {
+        position: relative;
+        padding: 40px;
+        clip-path: polygon(5% 0, 100% 0, 100% 80%, 86% 100%, 0 100%, 0 17%);
+        opacity: 0.6;
+    }
+
+    .uslugi-card__img {
+        position: absolute;
+        top: 50%;
+        left: 60px;
+        transform: translateY(-50%);
+        // clip-path: polygon(30% 0, 100% 0, 100% 68%, 76% 100%, 0 100%, 0 26%);
+    }
+
+    .uslugi-card {
+        display: flex;
+
+        &:hover {
+            background: linear-gradient(90deg, #C53720 0%, rgba(197, 55, 32, 0.00) 100%);
+            opacity: 1;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            cursor: pointer;
+        }
+    }
+
+    .uslugi-card__title {
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 16px;
+    }
+
+    .uslugi-card__desc {
+        flex-direction: column;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .uslugi-card__text {
+        margin-left: 21px;
+    }
+
+    .redline-button {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

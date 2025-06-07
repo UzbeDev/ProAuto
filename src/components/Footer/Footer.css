@@ -1,0 +1,86 @@
+.footer-section {
+  mix-blend-mode: screen;
+  position: relative;
+}
+.footer-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./../../img/footer-back.png") lightgray 50%/cover no-repeat;
+  background-color: rgb(0, 0, 0);
+  z-index: -1;
+}
+.footer-section .footer-items {
+  display: flex;
+  padding-top: 54px;
+}
+.footer-section .footer-items .first p {
+  margin-top: 48px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.5;
+}
+.footer-section .footer-items .middle {
+  display: flex;
+}
+.footer-section .footer-items .middle .footer-paths {
+  display: flex;
+}
+.footer-section .footer-items .middle .footer-paths .footer-path {
+  margin-left: 96px;
+}
+.footer-section .footer-items .middle .footer-paths .footer-path .path-title {
+  margin-bottom: 20px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer-section .footer-items .middle .footer-paths .footer-path .path-items {
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.5;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.footer-section .footer-items .middle .footer-paths .footer-path .path-items:hover {
+  opacity: 1;
+  color: rgb(182, 181, 187);
+}
+.footer-section .footer-items .last {
+  margin-left: 70px;
+}
+.footer-section .footer-items .last .text {
+  display: flex;
+}
+.footer-section .footer-items .last .text .phone-number {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer-section .footer-items .last .text img {
+  margin-right: 8px;
+}
+.footer-section .footer-items .last .text .gmail {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 12px;
+}
+.footer-section .footer-items .last .redline-button {
+  margin-top: 20px;
+}/*# sourceMappingURL=Footer.css.map */
